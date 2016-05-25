@@ -1,5 +1,7 @@
 ---
-layout:main
+
+layout: main
+
 ---
 
 # Datfic
