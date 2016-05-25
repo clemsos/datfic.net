@@ -1,3 +1,7 @@
+---
+layout:main
+---
+
 # Datfic
 
 *Datfic* [/datfic/] : n.m. (21th century). 
