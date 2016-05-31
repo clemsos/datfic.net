@@ -13,7 +13,7 @@ layout: main
 *Did you see George's latest datfic on his blog ?* 
 1. Using five senses to provide new perceptions of data ; (see *pie chart failures* and *post-visualization syndrom*).  
 *My eyes are so tired of screens. I can not stare at charts anymore. We should go datfic now.*
-1. Speculative insights based on predictive analytics, often used for important decisions in planning; (see *neural networks*, *random forests*, *fututology*).  
+1. Speculative insights based on predictive analytics, often used for important decisions in planning; (see *neural networks*, *random forests*, *futurology*).  
 *According to our datfic experts, the GDP will continue to grow by 5% during the next decades.*
 1. What happens when analytics do not work but you need a result anyway ; (see *hard facts*, *lies*, *manipulation*).  
 *This last WTO report about China is a complete datfic.*
