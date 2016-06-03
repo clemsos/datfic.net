@@ -7,6 +7,14 @@ $grey-dark: #2c2c2c;
 $grey: #595454;
 $grey-light: #eee;
 
+/* hack for mobile */
+.row .column.responsive {
+  @media screen and (max-device-width: 40rem) {
+    margin:1%;
+    width:98%;
+    max-width:100%;
+  }
+}
 
 /* typo */
 
@@ -55,6 +63,7 @@ input[type='email']:focus, input[type='number']:focus, input[type='password']:fo
   text-align: center;
   padding:4em 0 3rem 0;
   b{
+    font-size: 1.2em;
     color:$brown
   }
   em {
@@ -73,6 +82,9 @@ input[type='email']:focus, input[type='number']:focus, input[type='password']:fo
   #main {
     padding-top: 8em;
     margin-bottom: 7em;
+    @media screen and (max-device-width: 40rem) {
+      margin-bottom: 2em;
+    }
   }
 
   blockquote {
