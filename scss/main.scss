@@ -1,0 +1,73 @@
+---
+---
+/* colors */
+$brown: #8D6748;
+$brown-light:#c29d7f;
+$grey-dark: #2c2c2c;
+$grey: #595454;
+$grey-light: #eee;
+
+
+/* typo */
+
+body {
+  font-size: 16px;
+}
+
+
+h1, h2, a, a:visited {
+  color: $brown;
+}
+
+
+h3, h4, h5, a:hover {
+  color: $brown-light;
+}
+
+// buttons
+.button, button, input[type='button'], input[type='reset'], input[type='submit'] {
+  background-color: $brown;
+  border-color: $brown;
+}
+
+.button:hover, .button:focus, button:hover, button:focus, input[type='button']:hover, input[type='button']:focus, input[type='reset']:hover, input[type='reset']:focus, input[type='submit']:hover, input[type='submit']:focus {
+  background-color: $brown-light;
+  border-color: $brown-light;
+}
+
+input[type='email']:focus, input[type='number']:focus, input[type='password']:focus, input[type='search']:focus, input[type='tel']:focus, input[type='text']:focus, input[type='url']:focus, textarea:focus, select:focus {
+  border-color: $brown;
+}
+
+
+
+#header  {
+  padding: 5rem 0 2rem 0;
+  text-align: center;
+  b{
+    color:$brown
+  }
+  em {
+    font-size: 1em;
+    color:$brown-light;
+  }
+}
+
+#footer {
+  font-size: .9em;
+  text-align: center;
+  padding-bottom: 3rem;
+}
+
+
+#home {
+  font-size: 1.8em;
+  blockquote {
+    font-size: .9em;
+    padding: 0;
+    border: none;
+  }
+  li {
+    padding-bottom : 1em;
+  }
+}
