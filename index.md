@@ -12,7 +12,6 @@ layout: main
 1. Fictional story made by data fanatics (see *fanfic*).  
 *Did you see George's latest datfic on his blog ?*
 1. Speculative insights based on predictive analytics, often used for important decisions in planning; (see *neural networks*, *random forests*, *fututology*).  
-*According to our datfic experts, the GDP will continue to grow by 5% during the next decades.*
 1. What happens when statistical models do not work but you need a result anyway ; (see *hard facts*, *lies*, *manipulation*).  
 *This last WTO report about consumption in China is a complete datfic.*
 1. New perceptions of data based on experience ; (see *pie chart failures* and *post-visualization syndrom*).  
