@@ -1,0 +1,98 @@
+---
+---
+/* colors */
+$brown: #8D6748;
+$brown-light:#c29d7f;
+$grey-dark: #2c2c2c;
+$grey: #595454;
+$grey-light: #eee;
+
+/* hack for mobile */
+.row .column.responsive {
+  @media screen and (max-device-width: 40rem) {
+    margin:1%;
+    width:98%;
+    max-width:100%;
+  }
+}
+
+/* typo */
+
+body {
+  font-size: 16px;
+}
+
+
+h1, h2, a, a:visited {
+  color: $brown;
+}
+
+
+h3, h4, h5, a:hover {
+  color: $brown-light;
+}
+
+// buttons
+.button, button, input[type='button'], input[type='reset'], input[type='submit'] {
+  background-color: $brown;
+  border-color: $brown;
+}
+
+.button:hover, .button:focus, button:hover, button:focus, input[type='button']:hover, input[type='button']:focus, input[type='reset']:hover, input[type='reset']:focus, input[type='submit']:hover, input[type='submit']:focus {
+  background-color: $brown-light;
+  border-color: $brown-light;
+}
+
+input[type='email']:focus, input[type='number']:focus, input[type='password']:focus, input[type='search']:focus, input[type='tel']:focus, input[type='text']:focus, input[type='url']:focus, textarea:focus, select:focus {
+  border-color: $brown;
+}
+
+
+
+#header  {
+  padding: 5rem 0 2rem 0;
+  text-align: center;
+}
+
+#footer {
+  @media screen and (min-width: 40.0rem) {
+    width:100%
+  }
+
+  font-size: .9em;
+  text-align: center;
+  padding:4em 0 3rem 0;
+  b{
+    font-size: 1.2em;
+    color:$brown
+  }
+  em {
+    font-size: 1em;
+    color:$brown-light;
+  }
+  input[type="text"] {
+    border-color: $brown-light;
+  }
+}
+
+
+#home {
+  font-size: 1.8em;
+
+  #main {
+    padding-top: 8em;
+    margin-bottom: 1em;
+    @media screen and (max-device-width: 40rem) {
+      margin-bottom: 2em;
+    }
+  }
+
+  blockquote {
+    font-size: .9em;
+    padding: 0;
+    border: none;
+  }
+  li {
+    padding-bottom : 1em;
+  }
+}
