@@ -6,3 +6,4 @@ layout : page
 
 * Clément Renaud
 * Romain Talou
+* Ghofran Akil
