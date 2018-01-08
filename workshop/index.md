@@ -13,3 +13,4 @@ layout : page
 * Mathias Hangartner
 * Nicolas Baldran
 * SALOME FAURE
+* David Héritier
