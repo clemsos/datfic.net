@@ -6,3 +6,4 @@ layout : page
 
 * Clément Renaud
 * Ghofran Akil
+* nicolas baldran
