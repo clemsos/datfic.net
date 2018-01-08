@@ -12,3 +12,4 @@ layout : page
 * Carla Marceau
 * Mathias Hangartner
 * Nicolas Baldran
+* SALOME FAURE
