@@ -1,5 +1,5 @@
 ---
-
+layout : page
 ---
 
 # Workshop HEAD Data Fiction
