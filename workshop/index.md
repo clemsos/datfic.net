@@ -6,3 +6,6 @@ layout : page
 
 * Clément Renaud
 * Simon Pinkas
+* Romain Talou
+* Ghofran Akil
+* nicolas baldran
