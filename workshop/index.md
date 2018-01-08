@@ -8,4 +8,5 @@ layout : page
 * Simon Pinkas
 * Romain Talou
 * Ghofran Akil
+* Mathias Hangartner
 * Nicolas Baldran
