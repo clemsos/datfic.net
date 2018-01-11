@@ -1,0 +1,25 @@
+$margin-doc: 10px;
+
+@mixin width($column) {
+  width: calc( (100% / 12) * #{$column} );
+  float: left;
+  height: 100%;
+  box-sizing: border-box;
+}
+@mixin container() {
+  padding-left: $margin-doc;
+  padding-right: $margin-doc;
+  overflow: hidden;
+  &:after {
+    content: ".";
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+  }
+}
+@mixin box (){
+  padding-left: $margin-doc;
+  padding-right: $margin-doc;
+  box-sizing: border-box;
+}

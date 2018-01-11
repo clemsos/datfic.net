@@ -1,0 +1,38 @@
+@import "param";
+
+main {
+  .intro {
+    background: black;
+    + .next {
+      background: linear-gradient(to bottom, black, transparent);
+    }
+
+    .box {
+      @include width(2);
+      @include box();
+    }
+
+    .container {
+      @include width(8);
+      @include box();
+
+      h1 {
+        margin: 0;
+        height: 50vh;
+        padding-top: 25vh;
+        box-sizing: border-box;
+      }
+      .subtitle {
+        @include container();
+        height: 50vh;
+        .subtitle-offset {
+          @include width(3);
+        }
+        h2 {
+          @include width(9);
+          margin: 0;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,34 @@
+@import "param";
+
+main {
+  .about {
+    .box {
+      @include width(0);
+      @include box();
+      display: none;
+    }
+
+    .container {
+      @include width(6);
+      @include box();
+
+      h1 {
+        margin: 0;
+        height: 50vh;
+        padding-top: 25vh;
+        box-sizing: border-box;
+      }
+      .subtitle {
+        @include container();
+        height: 50vh;
+        .subtitle-offset {
+          @include width(3);
+        }
+        h2 {
+          @include width(6);
+          margin: 0;
+        }
+      }
+    }
+  }
+}

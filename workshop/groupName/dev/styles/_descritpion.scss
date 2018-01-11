@@ -1,0 +1,33 @@
+@import "param";
+
+main {
+  .product-description {
+    .box {
+      @include width(5);
+      @include box();
+    }
+
+    .container {
+      @include width(6);
+      @include box();
+
+      h1 {
+        margin: 0;
+        height: 50vh;
+        padding-top: 25vh;
+        box-sizing: border-box;
+      }
+      .subtitle {
+        @include container();
+        height: 50vh;
+        .subtitle-offset {
+          @include width(0);
+        }
+        h2 {
+          @include width(12);
+          margin: 0;
+        }
+      }
+    }
+  }
+}
