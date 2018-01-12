@@ -1,7 +1,8 @@
   {% include head.html %}
-  <div class="container">
+  <div class="container" id="page">
     <div class="row" id="main">
-      <div class="column column-50 column-offset-25 responsive">
+      <div class="responsive">
+        <h1>{{ page.title }}</h1>
         {{ content }}
       </div>
     </div>

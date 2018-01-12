@@ -75,7 +75,6 @@ input[type='email']:focus, input[type='number']:focus, input[type='password']:fo
   }
 }
 
-
 #home {
   font-size: 1.8em;
 
@@ -94,5 +93,12 @@ input[type='email']:focus, input[type='number']:focus, input[type='password']:fo
   }
   li {
     padding-bottom : 1em;
+  }
+}
+
+#page {
+  #main {
+    padding-top: 3em;
+    margin-bottom: 2em;
   }
 }
