@@ -1,7 +1,7 @@
 @import "param";
 
 main {
-  .use-case {
+  [class^="use-case"] {
     .box {
       @include width(0);
       @include box();
@@ -30,5 +30,17 @@ main {
         }
       }
     }
+
+    .video-enter {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate3d(-50%, -50%, 0);
+      height: 37.5vw;
+    }
   }
+}
+
+.use-case-second {
+  //mix-blend-mode: multiply;
 }

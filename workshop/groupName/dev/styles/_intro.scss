@@ -8,29 +8,44 @@ main {
     }
 
     .box {
-      @include width(2);
+      @include width(1);
       @include box();
     }
 
     .container {
-      @include width(8);
+      @include width(10);
       @include box();
 
       h1 {
         margin: 0;
-        height: 50vh;
-        padding-top: 25vh;
+        padding: 0;
         box-sizing: border-box;
+        font-size: 400px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate3d(-50%, -50%, 0);
+        opacity: 0;
+        transition: opacity 3s ease-in-out;
+        opacity: 1;
+        padding-left: 180px;
       }
       .subtitle {
         @include container();
-        height: 50vh;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+
+        color: #000;
+        text-shadow: 0 4px 8.896px #002,0 -2px 1px #fff;
+
         .subtitle-offset {
-          @include width(3);
+          @include width(2);
         }
         h2 {
-          @include width(9);
+          @include width(10);
           margin: 0;
+          font-size: 3em;
         }
       }
     }
