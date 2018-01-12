@@ -1,5 +1,6 @@
 ---
 title: HEAD - Workshop HEAD Data Fiction
+layout: page
 ---
 
 ## Day 1 : Introduction

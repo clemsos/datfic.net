@@ -1,10 +1,14 @@
 ---
 layout: page
-title: Workshop HEAD Data Fiction
+title: Workshop Data Fiction - HEAD
 ---
 
-January 8-12th, 2018
-M1 Media Design - HEAD, Geneva
+M1 Media Design  
+**January 8-12th, 2018**  
+HEAD, Geneva - Switzerland  
+
+![](https://head.hesge.ch/alpes/assets/images/Head_logocourt_NB.jpg)
+
 
 * Voir le [déroulement](./content.html)
 * Lire [l'énoncé](./assignment.html)
