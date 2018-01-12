@@ -1,12 +1,9 @@
 ---
-title: HEAD DatFic Workshop - Enoncé
+title: Workshop - Créer votre data fiction
 layout : page
 ---
 
-# Créer votre *data fiction*
-
 La définition d'après http://datfic.net
-
 
 > ### Datfic
 > [/datfic/] n.m. (21th century)
