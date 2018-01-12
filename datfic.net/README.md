@@ -1,2 +1,0 @@
-# datfic.net
-dat | fic
