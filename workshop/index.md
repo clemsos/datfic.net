@@ -1,8 +1,15 @@
 ---
-layout : page
+layout: page
+title: Workshop HEAD Data Fiction
 ---
 
-# Workshop HEAD Data Fiction
+January 8-12th, 2018
+M1 Media Design - HEAD, Geneva
+
+* Voir le [déroulement](./content.html)
+* Lire [l'énoncé](./assignment.html)
+
+### Credits
 
 * Clément Renaud
 * Léo Durand
