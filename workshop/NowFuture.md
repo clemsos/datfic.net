@@ -1,8 +1,8 @@
 # NowFuture
 
-Gofhran Akil
-Léo Durand 
-David Héritier 
+Gofhran Akil,
+Léo Durand, 
+David Héritier,
 Carla Marceau
 
 ## Le synopsis
