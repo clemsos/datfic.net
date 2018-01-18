@@ -1,18 +1,18 @@
-<h1>NowFuture</h1>
+# NowFuture
 
 Gofhran Akil
 Léo Durand 
 David Héritier 
 Carla Marceau
 
-<h2> le synopsis </h2>
+## Le synopsis
 Astrology uses evidence such as scientific knowledge of planets’ alignment
 and star charts to discover your personality and future. Your palm lines are
 not random. Like your fingerprint, they are unique and tell the secrets of your
 future. We combine both astrology and palmistry to convey future perception.
 Trust us, and put your palm on the scanner to begin this journey to the future!
 
-<h2>intention et cas d’utilisation</h2>
+## Intention et cas d’utilisation
 
 intention : to combine all astrology, palmistry and personal information so that people don’t search into different places to find their daily horoscope.
 la description des données utilisées
@@ -23,19 +23,19 @@ astrology.com, ELLE Daily Horoscope, Horoscope.com, ThoughtCo.com exploring line
 
 The user answer to a quick questionnaire, scan the palm of their hand and get a quick horoscope giving them a view on their personality and what can happen in their near future.
 
-<h2>le fonctionnement technique du dispositif</h2>
+## Le fonctionnement technique du dispositif
 Website and palm scanner
 
 
-<h2>visuels</h2>
+## Visuel
 <video src="main_scan.mp4" controls>
 </video>
 
-<h2>un lien vers le code utilisé</h2>
+## Un lien vers le code utilisé
 www.leodurand.fr/NOWFUTURE
 www.leodurand.fr/NOWFUTURE/SCAN
 
-<h2>les recherches</h2>
+## les recherches
 astrology.com, ELLE Daily Horoscope, Horoscope.com, ThoughtCo.com exploring lines on your palm
 toutes autres infos, liens, données, etc. nécessaires à la bonne compréhension du projet
 Les astres liés aux signes des horoscopes.
