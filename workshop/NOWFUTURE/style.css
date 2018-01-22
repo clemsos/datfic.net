@@ -1,0 +1,279 @@
+::selection  {
+    user-select: none;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(img/pattern.jpg);
+    font-family: Simplon Norm;
+    color:white;
+}
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+#wrapper {
+    width: calc(100vw - 150px);
+    height: calc(100vh - 150px);
+    margin: 75px;
+}
+#header {
+    width:100%;
+    /*    text-align:center;*/
+}
+
+#intro {
+    width: 400px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); 
+    text-align: center;
+    line-height: 17pt;
+    position: absolute;
+}
+#hand-scanner {
+    width: 400px;
+    left: 50%;
+    top: 47%;
+    font-size: 13pt;
+    transform: translate(-50%, -50%); 
+    text-align: center;
+    line-height: 18pt;
+    position: absolute;
+}
+#img-scanner img {
+    width: 130px;
+    margin-top: 40px;
+}
+#btn-start {
+    background-color:#121212;
+    width: 50%;
+    height: 43px;
+    margin-left: 25%;
+    border-radius: 100px;
+    border: 1px solid #f2f2f2 !important;
+    font-size: 12pt;
+    color:white;
+    line-height: 43px;
+    text-align: center;
+    margin-top: 60px;
+    display: block; 
+    transition: 0.2s ease;
+    cursor: pointer;
+    position: absolute;
+    display: none;
+}
+#btn-start:hover {
+    opacity: 0.5; 
+}
+#left-header {
+    float:left;
+    width:calc(50% - 80px);
+    height: 1px;
+    margin-top:10px;
+    background: #a8a8a8;
+}
+
+#center-header {
+    width:160px;
+    height: 20px;
+    margin:0 auto;
+    text-align:center;
+    color:white;
+    font-size: 14pt;
+    display: inline-block;
+    font-weight: 700;
+}
+#center-header span{
+    font-weight: 100;
+}
+
+#right-header {
+    float:right;
+    width:calc(50% - 80px);
+    height: 1px;
+    margin-top:10px;
+    background: #a8a8a8;
+}
+
+#footer {
+    color:#666771;
+    width: calc(100% - 160px);
+    position: absolute;
+    bottom: 75px;
+}
+#footer-line {
+    width:100%;
+    height: 1px;
+    background: #a8a8a8;
+}
+#left-footer {
+    float:left;
+    width:100px;
+    margin-top:-30px;
+}
+#right-footer span {
+    color:#f2f2f2;
+}
+#right-footer {
+    float:right;
+    text-align: right;
+    width:100px;
+    margin-top:-30px;
+}
+
+/* CONTENT */
+
+#survey-wrapper {
+    width: 100%;
+    height: 80%;
+    margin-top:5%;
+}
+.questions {
+    width: 500px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    text-align: center;
+}
+.quest-text {
+    font-size: 14pt;
+    margin-bottom: 10px;
+}
+input {
+    background-color:#121212;
+    width: 50%;
+    height: 43px;
+    margin-left: 25%;
+    border-radius: 100px;
+    border: 1px solid #f2f2f2 !important;
+    font-size: 12pt;
+    color:white;
+    text-align: center;
+    margin-top: 20px;
+    display: block;
+}
+textarea:focus, input:focus{
+    outline: none;
+}
+
+.button-next {
+    width: 70px;
+    height: 47px;
+    background-color:#121212;
+    border-radius: 100px;
+    border: 1px solid #f2f2f2 !important;
+    cursor: pointer;
+    float: right;
+    margin-top: -47px;
+    opacity: 0.5;
+    transition: 0.2s ease;
+}
+.button-next img {
+    width: 8px;
+    margin-top: 16px;
+}
+.button-next:hover {
+    opacity: 1;
+}
+
+
+.button-multi-choice {
+    background-color:#121212;
+    width: 50%;
+    height: 43px;
+    margin-left: 25%;
+    border-radius: 100px;
+    border: 1px solid #f2f2f2 !important;
+    font-size: 12pt;
+    color:white;
+    line-height: 43px;
+    text-align: center;
+    margin-top: 20px;
+    display: block; 
+    transition: 0.2s ease;
+}
+.button-multi-choice:hover {
+    opacity: 0.5; 
+}
+
+.button-astro-sign {
+    background-color:#121212;
+    width: 70%;
+    height: 43px;
+    margin-left: 15%;
+    border-radius: 100px;
+    border: 1px solid #f2f2f2 !important;
+    font-size: 12pt;
+    color:white;
+    line-height: 43px;
+    text-align: center;
+    margin-top: 20px;
+    display: block; 
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+.button-astro-sign:hover {
+    opacity: 0.5; 
+}
+
+#left-astro ,#right-astro {
+    display: inline-block;
+    width: 40%;
+}
+
+
+#text-result {
+    width: 40%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    display: none;
+
+
+    font-size: 13pt;
+    line-height: 17pt;
+    text-align: center;
+    color: #fcfcfc;
+}
+
+.img-signs {
+    width: 60%;
+    height: 60%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    display: none;
+}
+
+#all-astro-signs {
+    display: none;
+}
+
+#aries-sign, #taurus-sign, #gemini-sign, #cancer-sign, #leo-sign, #virgo-sign, #libra-sign, #scorpio-sign, #sagittarius-sign, #capricorn-sign, #aquarius-sign, #pisces-sign {
+    position: absolute;
+    display: none;
+}
+#aries-sign img, #taurus-sign img, #gemini-sign img, #cancer-sign img, #leo-sign img, #virgo-sign img, #libra-sign img, #scorpio-sign img, #sagittarius-sign img, #capricorn-sign img, #aquarius-sign img, #pisces-sign img {
+    opacity: 0.4;
+    height: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+
+
+#hand-scanner, #quest-1, #quest-15, #quest-2, #quest-3, #quest-4, #quest-5 {
+    display: none;
+}
