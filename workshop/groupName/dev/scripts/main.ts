@@ -89,9 +89,9 @@ function init() {
     }
 
     let cafet: THREE.Object3D;
-    createObject("cafet", (object) => {
+    createObject("sphere", (object) => {
         cafet = object;
-        cafet.scale.set(200, 200, 200);
+        cafet.scale.set(50, 50, 50);
         cafet.position.x = -50;
         cafet.position.y = 50;
         cafet.position.z = -100;
@@ -102,9 +102,9 @@ function init() {
     });
 
     let client1: THREE.Object3D;
-    createObject("client1", (object) => {
+    createObject("strange", (object) => {
         client1 = object;
-        client1.scale.set(100, 100, 100);
+        client1.scale.set(50, 50, 50);
         client1.position.x = 150;
         client1.position.y = 0;
         client1.rotateZ(0);
@@ -114,9 +114,9 @@ function init() {
     });
 
     let client2: THREE.Object3D;
-    createObject("client2", (object) => {
+    createObject("suzanne", (object) => {
         client2 = object;
-        client2.scale.set(100, 100, 100);
+        client2.scale.set(50, 50, 50);
         client2.position.x = -150;
         client2.position.y = 0;
         client2.rotateZ(0);
@@ -138,7 +138,7 @@ function init() {
     // });
 
     let espacetoilet: THREE.Object3D;
-    createObject("espacetoilet", (object) => {
+    createObject("torus", (object) => {
         espacetoilet = object;
         espacetoilet.scale.set(20, 20, 20);
         espacetoilet.position.x = 0;
