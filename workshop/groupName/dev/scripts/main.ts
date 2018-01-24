@@ -9,8 +9,6 @@ console.log("ok");
 
 const menu = new Menu();
 
-
-
 declare global {
     const THREE: THREE;
 }

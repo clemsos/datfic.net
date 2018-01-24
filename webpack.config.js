@@ -104,6 +104,7 @@ module.exports = (env) => {
                 return [
                     new ExtractTextPlugin('style.css'),
                     new HtmlWebpackPlugin({
+                        title: 'Custom template',
                         template: './workshop/groupName/dev/index.html'
                     })
                 ]
