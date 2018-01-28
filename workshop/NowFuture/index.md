@@ -36,8 +36,8 @@ Website and palm scanner
 </video>
 
 ## Un lien vers le code utilisé
-www.leodurand.fr/NOWFUTURE
-www.leodurand.fr/NOWFUTURE/SCAN
+[Démo](/demo)
+[Scan](/demo/SCAN)
 
 ## les recherches
 astrology.com, ELLE Daily Horoscope, Horoscope.com, ThoughtCo.com exploring lines on your palm
