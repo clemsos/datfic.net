@@ -1,0 +1,46 @@
+{
+  "name": "datfic.net",
+  "version": "1.0.0",
+  "description": "head workshop",
+  "main": "./prod/index.html",
+  "scripts": {
+    "clean": "rm -rf ./workshop/groupName/prod",
+    "import-dist": "mkdir ./workshop/groupName/prod && cp -r ./workshop/groupName/dev/dist/ ./workshop/groupName/prod/dist/",
+    "build": "npm run clean && npm run import-dist && ./node_modules/.bin/webpack --env.production",
+    "server": "./node_modules/.bin/http-server ./workshop/groupName/prod -p 63400 -c-1",
+    "build-dev": "npm run clean && npm run import-dist && ./node_modules/.bin/webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/azertypow/datfic.net.git"
+  },
+  "keywords": [
+    "datafiction"
+  ],
+  "author": "groupeName",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/azertypow/datfic.net/issues"
+  },
+  "homepage": "https://github.com/azertypow/datfic.net#readme",
+  "devDependencies": {
+    "@types/three": "^0.89.4",
+    "css-loader": "^0.28.8",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^1.1.6",
+    "html-loader": "^0.5.4",
+    "html-webpack-plugin": "^2.30.1",
+    "http-server": "^0.11.1",
+    "node-sass": "^4.7.2",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.19.1",
+    "ts-loader": "^3.2.0",
+    "typescript": "^2.6.2",
+    "webpack": "^3.10.0"
+  },
+  "dependencies": {
+    "animated-scrollto": "^1.1.0",
+    "scrollto-with-animation": "^4.5.2",
+    "three": "^0.89.0"
+  }
+}
