@@ -5,6 +5,7 @@ layout : page
 # Workshop HEAD Data Fiction
 
 * Clément Renaud
+* Léo Durand
 * Simon Pinkas
 * Romain Talou
 * Ghofran Akil
