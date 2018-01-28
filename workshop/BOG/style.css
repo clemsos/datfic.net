@@ -1,0 +1,400 @@
+body, html {
+  font-family: "Gill_Facia", monospace;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  font-size: 30px;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: 0.015em;
+  perspective: 960px;
+  perspective-origin: left;
+  color: #000;
+  text-shadow: 0 4px 8.896px #002,0 -2px 1px #fff; }
+
+h1 {
+  font-size: 120px; }
+
+h2 {
+  font-family: "Helvetica Neue";
+  text-shadow: none; }
+
+.menu {
+  padding-left: 10px;
+  padding-right: 10px;
+  overflow: hidden;
+  width: calc( (100% / 12) * 3);
+  float: left;
+  height: 100%;
+  box-sizing: border-box;
+  position: fixed;
+  font-size: 2em;
+  top: 4.3vh;
+  height: auto;
+  padding-top: 0;
+  left: 10px;
+  perspective-origin: left;
+  line-height: 1.4em;
+  perspective: 690px;
+  transform-origin: left;
+  overflow: visible;
+  transition: transform 500ms ease-in-out, opacity 500ms ease-in-out;
+  transform: rotate3d(0, 0, 0, -47deg);
+  opacity: 0; }
+  .menu:after {
+    content: ".";
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both; }
+  .menu.not-home {
+    transform: rotate3d(0, -1, 0, -47deg);
+    opacity: 1; }
+  .menu .menu-button {
+    cursor: pointer; }
+    .menu .menu-button:hover {
+      letter-spacing: 0.05em; }
+
+main {
+  margin: 0;
+  background: url(images/background.jpg) no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  overflow: scroll; }
+  main section {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    pointer-events: none; }
+  main section[class^="use-case"] {
+    height: 200%; }
+  main .next {
+    width: 100%;
+    height: 250px; }
+
+.bog {
+  letter-spacing: 0.4em; }
+
+canvas {
+  position: fixed;
+  pointer-events: none; }
+
+main .intro {
+  background: black; }
+  main .intro + .next {
+    background: linear-gradient(to bottom, black, transparent); }
+  main .intro .box {
+    width: calc( (100% / 12) * 1);
+    float: left;
+    height: 100%;
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+    position: relative; }
+  main .intro .container {
+    width: calc( (100% / 12) * 10);
+    float: left;
+    height: 100%;
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+    position: relative; }
+    main .intro .container h1 {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-size: 400px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate3d(-50%, -50%, 0);
+      opacity: 0;
+      transition: opacity 3s ease-in-out;
+      opacity: 1;
+      padding-left: 180px; }
+    main .intro .container .subtitle {
+      padding-left: 10px;
+      padding-right: 10px;
+      overflow: hidden;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      color: #000;
+      text-shadow: 0 4px 8.896px #002,0 -2px 1px #fff; }
+      main .intro .container .subtitle:after {
+        content: ".";
+        visibility: hidden;
+        display: block;
+        height: 0;
+        clear: both; }
+      main .intro .container .subtitle .subtitle-offset {
+        width: calc( (100% / 12) * 2);
+        float: left;
+        height: 100%;
+        box-sizing: border-box; }
+      main .intro .container .subtitle h2 {
+        width: calc( (100% / 12) * 10);
+        float: left;
+        height: 100%;
+        box-sizing: border-box;
+        margin: 0;
+        font-size: 3em; }
+
+main .product-description .box {
+  width: calc( (100% / 12) * 5);
+  float: left;
+  height: 100%;
+  box-sizing: border-box;
+  padding-left: 10px;
+  padding-right: 10px;
+  box-sizing: border-box;
+  position: relative; }
+
+main .product-description .container {
+  width: calc( (100% / 12) * 6);
+  float: left;
+  height: 100%;
+  box-sizing: border-box;
+  padding-left: 10px;
+  padding-right: 10px;
+  box-sizing: border-box;
+  position: relative; }
+  main .product-description .container h1 {
+    margin: 0;
+    height: 50vh;
+    padding-top: 25vh;
+    box-sizing: border-box; }
+  main .product-description .container .subtitle {
+    padding-left: 10px;
+    padding-right: 10px;
+    overflow: hidden;
+    height: 50vh; }
+    main .product-description .container .subtitle:after {
+      content: ".";
+      visibility: hidden;
+      display: block;
+      height: 0;
+      clear: both; }
+    main .product-description .container .subtitle .subtitle-offset {
+      width: calc( (100% / 12) * 0);
+      float: left;
+      height: 100%;
+      box-sizing: border-box; }
+    main .product-description .container .subtitle h2 {
+      width: calc( (100% / 12) * 12);
+      float: left;
+      height: 100%;
+      box-sizing: border-box;
+      margin: 0; }
+
+main .about .box {
+  width: calc( (100% / 12) * 0);
+  float: left;
+  height: 100%;
+  box-sizing: border-box;
+  padding-left: 10px;
+  padding-right: 10px;
+  box-sizing: border-box;
+  position: relative;
+  display: none; }
+
+main .about .container {
+  width: calc( (100% / 12) * 6);
+  float: left;
+  height: 100%;
+  box-sizing: border-box;
+  padding-left: 10px;
+  padding-right: 10px;
+  box-sizing: border-box;
+  position: relative; }
+  main .about .container h1 {
+    margin: 0;
+    height: 50vh;
+    padding-top: 25vh;
+    box-sizing: border-box; }
+  main .about .container .subtitle {
+    padding-left: 10px;
+    padding-right: 10px;
+    overflow: hidden;
+    height: 50vh; }
+    main .about .container .subtitle:after {
+      content: ".";
+      visibility: hidden;
+      display: block;
+      height: 0;
+      clear: both; }
+    main .about .container .subtitle .subtitle-offset {
+      width: calc( (100% / 12) * 3);
+      float: left;
+      height: 100%;
+      box-sizing: border-box; }
+    main .about .container .subtitle h2 {
+      width: calc( (100% / 12) * 6);
+      float: left;
+      height: 100%;
+      box-sizing: border-box;
+      margin: 0; }
+
+main .about [class^="diagram"] {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0);
+  width: 40vw;
+  height: auto; }
+
+main [class^="use-case"] .box {
+  width: calc( (100% / 12) * 0);
+  float: left;
+  height: 100%;
+  box-sizing: border-box;
+  padding-left: 10px;
+  padding-right: 10px;
+  box-sizing: border-box;
+  position: relative;
+  display: none; }
+
+main [class^="use-case"] .container {
+  width: calc( (100% / 12) * 6);
+  float: left;
+  height: 100%;
+  box-sizing: border-box;
+  padding-left: 10px;
+  padding-right: 10px;
+  box-sizing: border-box;
+  position: relative; }
+  main [class^="use-case"] .container h1 {
+    margin: 0;
+    height: 50vh;
+    padding-top: 25vh;
+    box-sizing: border-box; }
+  main [class^="use-case"] .container .subtitle {
+    padding-left: 10px;
+    padding-right: 10px;
+    overflow: hidden;
+    height: 50vh; }
+    main [class^="use-case"] .container .subtitle:after {
+      content: ".";
+      visibility: hidden;
+      display: block;
+      height: 0;
+      clear: both; }
+    main [class^="use-case"] .container .subtitle .subtitle-offset {
+      width: calc( (100% / 12) * 3);
+      float: left;
+      height: 100%;
+      box-sizing: border-box; }
+    main [class^="use-case"] .container .subtitle h2 {
+      width: calc( (100% / 12) * 6);
+      float: left;
+      height: 100%;
+      box-sizing: border-box;
+      margin: 0; }
+
+main [class^="use-case"] .video-enter {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0);
+  height: 37.5vw; }
+
+main .temoignage .box {
+  width: calc( (100% / 12) * 0);
+  float: left;
+  height: 100%;
+  box-sizing: border-box;
+  padding-left: 10px;
+  padding-right: 10px;
+  box-sizing: border-box;
+  position: relative;
+  display: none; }
+
+main .temoignage .container {
+  width: calc( (100% / 12) * 6);
+  float: left;
+  height: 100%;
+  box-sizing: border-box;
+  padding-left: 10px;
+  padding-right: 10px;
+  box-sizing: border-box;
+  position: relative; }
+  main .temoignage .container h1 {
+    margin: 0;
+    height: 50vh;
+    padding-top: 25vh;
+    box-sizing: border-box; }
+  main .temoignage .container .subtitle {
+    padding-left: 10px;
+    padding-right: 10px;
+    overflow: hidden;
+    height: 50vh; }
+    main .temoignage .container .subtitle:after {
+      content: ".";
+      visibility: hidden;
+      display: block;
+      height: 0;
+      clear: both; }
+    main .temoignage .container .subtitle .subtitle-offset {
+      width: calc( (100% / 12) * 3);
+      float: left;
+      height: 100%;
+      box-sizing: border-box; }
+    main .temoignage .container .subtitle h2 {
+      width: calc( (100% / 12) * 6);
+      float: left;
+      height: 100%;
+      box-sizing: border-box;
+      margin: 0; }
+
+main .partenariat .box {
+  width: calc( (100% / 12) * 0);
+  float: left;
+  height: 100%;
+  box-sizing: border-box;
+  padding-left: 10px;
+  padding-right: 10px;
+  box-sizing: border-box;
+  position: relative;
+  display: none; }
+
+main .partenariat .container {
+  width: calc( (100% / 12) * 6);
+  float: left;
+  height: 100%;
+  box-sizing: border-box;
+  padding-left: 10px;
+  padding-right: 10px;
+  box-sizing: border-box;
+  position: relative; }
+  main .partenariat .container h1 {
+    margin: 0;
+    height: 50vh;
+    padding-top: 25vh;
+    box-sizing: border-box; }
+  main .partenariat .container .subtitle {
+    padding-left: 10px;
+    padding-right: 10px;
+    overflow: hidden;
+    height: 50vh; }
+    main .partenariat .container .subtitle:after {
+      content: ".";
+      visibility: hidden;
+      display: block;
+      height: 0;
+      clear: both; }
+    main .partenariat .container .subtitle .subtitle-offset {
+      width: calc( (100% / 12) * 3);
+      float: left;
+      height: 100%;
+      box-sizing: border-box; }
+    main .partenariat .container .subtitle h2 {
+      width: calc( (100% / 12) * 6);
+      float: left;
+      height: 100%;
+      box-sizing: border-box;
+      margin: 0; }
