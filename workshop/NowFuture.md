@@ -1,7 +1,11 @@
+---
+layout : page
+---
+
 # NowFuture
 
 Gofhran Akil,
-Léo Durand, 
+Léo Durand,
 David Héritier,
 Carla Marceau
 
@@ -17,7 +21,7 @@ Trust us, and put your palm on the scanner to begin this journey to the future!
 intention : to combine all astrology, palmistry and personal information so that people don’t search into different places to find their daily horoscope.
 la description des données utilisées
 Input : survey, astrology, palmistry
-Output : Personalized future prediction and advice 
+Output : Personalized future prediction and advice
 la ou les organisations qui produisent les données (nom, mission, etc)
 astrology.com, ELLE Daily Horoscope, Horoscope.com, ThoughtCo.com exploring lines on your palm
 
@@ -39,4 +43,3 @@ www.leodurand.fr/NOWFUTURE/SCAN
 astrology.com, ELLE Daily Horoscope, Horoscope.com, ThoughtCo.com exploring lines on your palm
 toutes autres infos, liens, données, etc. nécessaires à la bonne compréhension du projet
 Les astres liés aux signes des horoscopes.
-
