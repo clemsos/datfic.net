@@ -15,30 +15,30 @@ M1 Media Design
 
 ### Credits
 
-# [IONG](/IONG)
+### [IONG](./IONG)
 
 * Simon Pinkas
 * Mathias Hangartner
 * Rémi Opalinski
 
-## [Now Future](/NowFuture)
+### [Now Future](./NowFuture)
 
 * Léo Durand
 * Carla Marceau
 * Ghofran Akil
 * David Héritier
 
-## [BOG](/BOG)
+### [BOG](./BOG)
 
 * Pierre Cottenceau
 * Juan Andres Gomez
 * Romain Talou
 * Nicolas Baldran
 
-# [Stalker](/stalker)
+### [Stalker](./stalker)
 
 * Megann Stephan
 
-# Learn Chinese
+### Learn Chinese
 
 * Salomé Faure
