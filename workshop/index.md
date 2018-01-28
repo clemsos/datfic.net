@@ -3,9 +3,9 @@ layout: page
 title: Workshop Data Fiction - HEAD
 ---
 
+HEAD, Geneva - Switzerland  
 M1 Media Design  
 **January 8-12th, 2018**  
-HEAD, Geneva - Switzerland  
 
 ![](https://head.hesge.ch/alpes/assets/images/Head_logocourt_NB.jpg)
 
@@ -15,13 +15,30 @@ HEAD, Geneva - Switzerland
 
 ### Credits
 
-* Clément Renaud
-* Léo Durand
+# [IONG](/IONG)
+
 * Simon Pinkas
-* Romain Talou
-* Ghofran Akil
-* Carla Marceau
 * Mathias Hangartner
-* Nicolas Baldran
-* Salomé Faure
+* Rémi Opalinski
+
+## [Now Future](/NowFuture)
+
+* Léo Durand
+* Carla Marceau
+* Ghofran Akil
 * David Héritier
+
+## [BOG](/BOG)
+
+* Pierre Cottenceau
+* Juan Andres Gomez
+* Romain Talou
+* Nicolas Baldran
+
+# [Stalker](/stalker)
+
+* Megann Stephan
+
+# Learn Chinese
+
+* Salomé Faure
