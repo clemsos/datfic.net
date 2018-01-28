@@ -7,14 +7,14 @@ $grey-dark: #2c2c2c;
 $grey: #595454;
 $grey-light: #eee;
 
-/* hack for mobile */
-.row .column.responsive {
-  @media screen and (max-device-width: 40rem) {
-    margin:1%;
-    width:98%;
-    max-width:100%;
-  }
-}
+// /* hack for mobile */
+// .row .column.responsive {
+//   @media screen and (max-device-width: 40rem) {
+//     margin:1%;
+//     width:98%;
+//     max-width:100%;
+//   }
+// }
 
 /* typo */
 
@@ -99,7 +99,11 @@ img {
 }
 
 #page {
+
   #main {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
     padding-top: 3em;
     margin-bottom: 2em;
   }
