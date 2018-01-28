@@ -1,0 +1,41 @@
+body{
+	width:100%;
+	height:100%;
+	background-color : #e97777;
+	font-family: "instructions",helvetica;
+	text-align: center;
+	font-size: 180%;
+	overflow-x: hidden;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+}
+@font-face {
+	font-family: "instructions";
+	src: url('Instructions.ttf');
+}
+.bloc{
+	display: flex;
+	justify-content: space-between;
+	background-color : #d25858;
+	text-align: left;
+	padding : 1%;
+	margin:1%;
+
+}
+.text{
+	margin-left: 2%;
+	
+}
+
+.bloc img{
+
+	width : 250px;
+	height: 200px;
+}
+#diaporama img{
+	width : 200px;
+	
+
+}
