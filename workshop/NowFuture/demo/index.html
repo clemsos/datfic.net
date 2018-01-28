@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>· NOWFUTURE ·</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+        <script src="../p5.min.js"></script>
+        <script src="script.js"></script>
+        <script src="sketch.js"></script>
+
+    </head>
+    <body>
+
+        <div id="intro">
+            <div id="text-intro">
+                Astrology uses evidence such as scientific knowledge of planets alignment and star charts to discover your personality and future. Your palm lines are not random. Like your fingerprint, they are unique and tell the secrets of your future. We combine both astrology and palmistry to convey future perception.<br /><br />Trust us, and put your palm on the scanner<br />to begin this journey to the future!
+            </div>
+
+            <audio autoplay>
+                <source src="audio_intro.mp3" type="audio/mpeg">
+            </audio>
+
+        </div>
+
+        <div id="hand-scanner">
+            <div id="text-scanner">Place your hand<br />on the biometric scanner</div>
+            <div id="img-scanner">
+                <img src="img/hand.png">
+            </div>
+            <div id="btn-start">
+                START
+            </div> 
+
+        </div>
+
+
+        <div id="all-astro-signs">
+            <div id="aries-sign" class="img-signs">
+                <img src="img/signs/aries.png">
+            </div>
+            <div id="taurus-sign" class="img-signs">
+                <img src="img/signs/taurus.png">
+            </div>
+            <div id="gemini-sign" class="img-signs">
+                <img src="img/signs/gemini.png">
+            </div>
+            <div id="cancer-sign" class="img-signs">
+                <img src="img/signs/cancer.png">
+            </div>
+            <div id="leo-sign" class="img-signs">
+                <img src="img/signs/leo.png">
+            </div>
+            <div id="virgo-sign" class="img-signs">
+                <img src="img/signs/virgo.png">
+            </div>
+            <div id="libra-sign" class="img-signs">
+                <img src="img/signs/libra.png">
+            </div>
+            <div id="scorpio-sign" class="img-signs">
+                <img src="img/signs/scorpio.png">
+            </div>
+            <div id="sagittarius-sign" class="img-signs">
+                <img src="img/signs/sagittarius.png">
+            </div>
+            <div id="capricorn-sign" class="img-signs">
+                <img src="img/signs/capricorn.png">
+            </div>
+            <div id="aquarius-sign" class="img-signs">
+                <img src="img/signs/aquarius.png">
+            </div>
+            <div id="pisces-sign" class="img-signs">
+                <img src="img/signs/pisces.png">
+            </div>
+        </div>
+
+
+
+        <div id="wrapper">
+            <div id="header">
+                <div id="left-header"></div>
+                <div id="center-header">· <span>NOW</span>FUTURE ·</div>
+                <div id="right-header"></div>
+            </div>
+
+
+            <div id="survey-wrapper">
+
+                <!-- QUEST 1 -->
+                <div id="quest-1" class="questions">
+                    <form>
+                        <label class="quest-text" for="fname">What is your first name ?</label>
+                        <input type="text" id="first_name">
+                    </form>
+                    <div id="btn-1" class="button-next">
+                        <img src="img/arrow.png">
+                    </div>
+                </div>
+
+                <!-- QUEST 15 -->
+                <div id="quest-15" class="questions">
+                    <form>
+                        <label class="quest-text" for="fname">What is your astrological sign ?</label>
+                        <div id="container-astro">
+                            <div id="left-astro">
+                                <div id="btn-aries" class="button-astro-sign">
+                                    Aries
+                                </div> 
+                                <div id="btn-taurus" class="button-astro-sign">
+                                    Taurus
+                                </div> 
+                                <div id="btn-gemini" class="button-astro-sign">
+                                    Gemini
+                                </div>  
+                                <div id="btn-cancer" class="button-astro-sign">
+                                    Cancer
+                                </div> 
+                                <div id="btn-leo" class="button-astro-sign">
+                                    Leo
+                                </div> 
+                                <div id="btn-virgo" class="button-astro-sign">
+                                    Virgo
+                                </div> 
+                            </div>
+                            <div id="right-astro">
+                                <div id="btn-libra" class="button-astro-sign">
+                                    Libra
+                                </div> 
+                                <div id="btn-scorpio" class="button-astro-sign">
+                                    Scorpio
+                                </div> 
+                                <div id="btn-sagittarius" class="button-astro-sign">
+                                    Sagittarius
+                                </div>  
+                                <div id="btn-capricorn" class="button-astro-sign">
+                                    Capricorn
+                                </div> 
+                                <div id="btn-aquarius" class="button-astro-sign">
+                                    Aquarius
+                                </div> 
+                                <div id="btn-pisces" class="button-astro-sign">
+                                    Pisces
+                                </div> 
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+                <!-- QUEST 2 -->
+                <div id="quest-2" class="questions">
+                    <form>
+                        <label class="quest-text">What is your gender ?</label>
+                        <div id="btn-male" class="button-astro-sign">
+                            Male
+                        </div> 
+                        <div id="btn-nonbinary" class="button-astro-sign">
+                            Non-binary
+                        </div> 
+                        <div id="btn-female" class="button-astro-sign">
+                            Female
+                        </div> 
+                    </form>
+                </div>
+
+
+
+                <!-- QUEST 3 -->
+                <div id="quest-3" class="questions">
+                    <form>
+                        <label class="quest-text" for="fname">Are you currently in a relationship ?</label>
+                        <div id="btn-relation-yes" class="button-astro-sign">
+                            Yes
+                        </div> 
+                        <div id="btn-relation-no" class="button-astro-sign">
+                            No
+                        </div> 
+                        <div id="btn-relation-complicated" class="button-astro-sign">
+                            It's complicated
+                        </div> 
+                    </form>
+
+                </div>
+
+                <!-- QUEST 4 -->
+                <div id="quest-4" class="questions">
+                    <form>
+                        <label class="quest-text">How many siblings do you have ?</label>
+                        <div id="btn-01" class="button-astro-sign">
+                            0 - 1
+                        </div> 
+                        <div id="btn-2more" class="button-astro-sign">
+                            2 and more
+                        </div> 
+                    </form>
+                </div>
+
+
+                <!-- QUEST 5 -->
+                <div id="quest-5" class="questions">
+                    <form>
+                        <label class="quest-text">How would you say your manage your emotions ?</label>
+                        <div id="btn-emotion-notwell" class="button-astro-sign">
+                            Not well
+                        </div> 
+                        <div id="btn-relation-notwell" class="button-astro-sign">
+                            Fairly well
+                        </div> 
+                        <div id="btn-relation-well" class="button-astro-sign">
+                            Well
+                        </div>
+                        <div id="btn-relation-well" class="button-astro-sign">
+                            Very well
+                        </div>
+                    </form>
+                </div>
+
+
+            </div>
+
+            <div id="text-result">
+                <!-- Hidden text -->
+            </div>
+
+
+            <div id="footer">
+                <div id="left-footer">vers 1.37</div>
+                <div id="right-footer"><span id="page-numb">0</span> - 7</div>
+                <div id="footer-line"></div>
+            </div>
+        </div>
+    </body>
+</html>
